@@ -121,7 +121,7 @@ function Teacher (name, age, gender, weight, height){
   this.studies = true
 }
 
-function Class() {
+function Class(subject, level) {
   this.subject= subject
   this.level = level
 }
